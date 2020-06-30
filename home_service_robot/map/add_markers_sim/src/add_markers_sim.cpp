@@ -62,6 +62,7 @@ int main( int argc, char** argv )
       sleep(1);
     }
 
+    ROS_INFO_ONCE("GOT Subscriber");
     // publish marker at pick up
     marker_pub.publish(marker);
 

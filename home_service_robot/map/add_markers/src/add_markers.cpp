@@ -73,6 +73,7 @@ int main( int argc, char** argv )
       sleep(1);
     }
 
+    ROS_INFO_ONCE("GOT Subscriber");
     if (!ros::param::has(OBJECT_STATUS_PARAM))
         ROS_ERROR("ERROR: Did not find parameter %s", OBJECT_STATUS_PARAM.c_str());
 
