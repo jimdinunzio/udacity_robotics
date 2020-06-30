@@ -1,0 +1,12 @@
+The student should include a brief write-up explaining the packages used for this project,
+covering localization, mapping and navigation.
+
+In this final home service robot project we combined multiple packages to achieve a desired and useful
+robot behavior. First, we used the ROS gmapping package to run laser-based SLAM along with turtlebot_teleop
+for keyboard control and build and save a map of our environment.
+Next with the map in hand we used the AMCL probablistic localization system using a particle filter to track the
+pose of our robot. Finally we used the ROS Navigation stack based on Dijkstra's algorithm to plan our robot's
+path from the pick up location to the drop off location. We also created a virtual object to show at the pick
+up location, then disappear when the robot reaches it and and show up at the drop off point when the robot
+reaches the drop off point. All together quite a satisfying combination of many areas we have learned in this
+nano degree program.
