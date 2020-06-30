@@ -11,4 +11,4 @@ xterm -e "source ~/workspace/catkin_ws/devel/setup.bash; roslaunch turtlebot_gaz
 sleep 5
 xterm -e "source ~/workspace/catkin_ws/devel/setup.bash; rviz -d ~/workspace/catkin_ws/src/map/rvizConfig/config.rviz" &
 sleep 5
-xterm -e "source ~/workspace/catkin_ws/devel/setup.bash; rosrun add_markers add_markers_node" &
+xterm -e "source ~/workspace/catkin_ws/devel/setup.bash; rosrun add_markers_sim add_markers_sim_node" &
