@@ -81,6 +81,8 @@ int main( int argc, char** argv )
     marker.pose.position.y = -1.420;
     marker_pub.publish(marker);
 
-    break;
+    sleep(5);
+
+    r.sleep();
   }
 }
